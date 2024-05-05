@@ -1,0 +1,69 @@
+assign int : x = 5; 
+prnt(x) ; 
+assign bool : y =  0 +7 ; 
+y = 0 ; 
+prnt("y") ; 
+$ this is netram 
+$* this is the netram star boy 
+
+
+this is netram  *$
+
+func: int prntEven(int: x, bool: z, string: yz) {
+    agar x % 2 == 0 {
+        prnt(x);
+    } nahito {
+        x = y+8 ;
+        y = z++ ; 
+        z++ ; 
+    }
+    respond 5 ; 
+}
+
+jabtak i < 5 {
+        
+    agar i % 2 == 0 {
+        prnt(i);              $ prints even numbers
+    }
+    nahito {
+        prnt("Odand even");
+    }
+}
+
+
+func:int myFunction (int: x, bool: y)  {
+	assign int: x = 5;
+	assign int: result = 0;
+    func:int  myFunction (int: a, bool: b)  {
+		$ function body
+		assign int: k = x+a;
+    		respond k;
+}
+    respond result;
+}
+
+try {
+    prientEvenFunc(4);
+    prnt(7);  $ this will throw an exception
+    throw x ; 
+} catch (exception) {
+    prnt(exception);
+}
+
+let tuple: name = (1,2,3) ; 
+x = name ; 
+
+xy = x[3] ; 
+x[3] = 5 ; 
+
+n = x.head() ; 
+y = z.size() ; 
+
+assign string: name = "John";
+
+
+assign string: name = "abc1234gh";
+assign string: name1 = name.slice(0,6);
+name.concat(name1);
+
+
