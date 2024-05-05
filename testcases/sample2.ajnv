@@ -1,0 +1,19 @@
+assign int: i = 0;
+assign int: j = 0;
+
+prnt(i++) ; $ post increment of i
+$ this is the comment 
+$* this is the mutlipline code 
+this is the mulitpline comment 
+this is the militpl
+*$ 
+
+jabtak i < 5 {
+    j = i%2 ; 
+    agar j == 0 {
+        prnt(i);              $ prints even numbers
+    } nahito {
+        prnt("Odd");
+    }
+    i++;
+}

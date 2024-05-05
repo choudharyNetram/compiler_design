@@ -1,0 +1,11 @@
+
+func:int myFunction (int: x, bool: y)  {
+	assign int: z = 5;
+	assign int: result = 0;
+    func:int  myFunction (int: a, bool: b)  {
+		$ function body
+		assign int: k = x+a;
+    		respond k;
+}
+    respond result;
+}

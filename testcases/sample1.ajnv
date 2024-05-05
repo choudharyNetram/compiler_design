@@ -1,0 +1,12 @@
+assign int: i = 5;
+
+jabtak i < 5 {
+    agar i == 0 {
+        prnt(i);            
+    } 
+
+    nahito {
+        prnt("Odd");
+    }
+    i++;
+}

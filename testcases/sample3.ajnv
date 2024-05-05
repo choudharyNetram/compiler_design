@@ -1,0 +1,10 @@
+func: int detectEven(int: x) {
+    agar x == 0 {
+        prnt(x);
+        respond 1 ; 
+    } nahito {
+         prnt("NotEvenNumber") ;
+        
+    }
+    
+}

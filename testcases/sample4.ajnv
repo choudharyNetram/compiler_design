@@ -1,0 +1,24 @@
+assign int : var1 = 9 ;
+
+assign string : name3 = "abcd" ;
+assign string : name4 = "x" ;
+name3.concat(name4) ; 
+name3.slice(0, var1) ;  $ here check the length of the string 
+
+
+assign int : arr(100) ; 
+assign int : arr2(100) = [1,2,3,4,5,6] ; 
+arr2[var1] = var1 ; 
+arr[3] = 5 ; 
+
+
+let tuple: name5 = (1,2,3) ; 
+assign int : array_a(100) ; 
+
+
+assign int : array_b(100) = [1,2,3,4,5,6] ; 
+
+array_b[3] = 5 ; 
+var1 = array_a.head() ; 
+var1 = array_a.size() ; 
+var1 = array_b[0];
